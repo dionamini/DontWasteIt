@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6173FD41C9562550057AF46 /* RegisterTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6173FD31C9562550057AF46 /* RegisterTransitionManager.swift */; };
+		C6173FD61C9565480057AF46 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6173FD51C9565480057AF46 /* TableViewController.swift */; };
+		C664949C1C9551F40045B0A5 /* RegisteredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C664949B1C9551F40045B0A5 /* RegisteredViewController.swift */; };
 		C6BD4F031C954BF500CC4D81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD4F021C954BF500CC4D81 /* AppDelegate.swift */; };
-		C6BD4F051C954BF500CC4D81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD4F041C954BF500CC4D81 /* ViewController.swift */; };
+		C6BD4F051C954BF500CC4D81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD4F041C954BF500CC4D81 /* LoginViewController.swift */; };
 		C6BD4F081C954BF500CC4D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BD4F061C954BF500CC4D81 /* Main.storyboard */; };
 		C6BD4F0A1C954BF500CC4D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BD4F091C954BF500CC4D81 /* Assets.xcassets */; };
 		C6BD4F0D1C954BF500CC4D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BD4F0B1C954BF500CC4D81 /* LaunchScreen.storyboard */; };
 		C6BD4F181C954BF500CC4D81 /* DontWasteItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BD4F171C954BF500CC4D81 /* DontWasteItTests.swift */; };
+		EB7974ECAA64506D0164941D /* Pods_DontWasteIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F115F8E59DA40E4C28C46A /* Pods_DontWasteIt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +30,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		87470EFB13BA9F70AFDDDBAD /* Pods-DontWasteIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DontWasteIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-DontWasteIt/Pods-DontWasteIt.release.xcconfig"; sourceTree = "<group>"; };
+		994E7D8CB0C8BB22A47B0DFE /* Pods-DontWasteIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DontWasteIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DontWasteIt/Pods-DontWasteIt.debug.xcconfig"; sourceTree = "<group>"; };
+		A8F115F8E59DA40E4C28C46A /* Pods_DontWasteIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DontWasteIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6173FD31C9562550057AF46 /* RegisterTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterTransitionManager.swift; sourceTree = "<group>"; };
+		C6173FD51C9565480057AF46 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C664949B1C9551F40045B0A5 /* RegisteredViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisteredViewController.swift; sourceTree = "<group>"; };
 		C6BD4EFF1C954BF500CC4D81 /* DontWasteIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DontWasteIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BD4F021C954BF500CC4D81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6BD4F041C954BF500CC4D81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6BD4F041C954BF500CC4D81 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C6BD4F071C954BF500CC4D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6BD4F091C954BF500CC4D81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6BD4F0C1C954BF500CC4D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7974ECAA64506D0164941D /* Pods_DontWasteIt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +67,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		794D668F5740EC83BB0FC282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8F115F8E59DA40E4C28C46A /* Pods_DontWasteIt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4E74684186676196BE6CD06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				994E7D8CB0C8BB22A47B0DFE /* Pods-DontWasteIt.debug.xcconfig */,
+				87470EFB13BA9F70AFDDDBAD /* Pods-DontWasteIt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C6BD4EF61C954BF400CC4D81 = {
 			isa = PBXGroup;
 			children = (
 				C6BD4F011C954BF500CC4D81 /* DontWasteIt */,
 				C6BD4F161C954BF500CC4D81 /* DontWasteItTests */,
 				C6BD4F001C954BF500CC4D81 /* Products */,
+				A4E74684186676196BE6CD06 /* Pods */,
+				794D668F5740EC83BB0FC282 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +107,12 @@
 		C6BD4F011C954BF500CC4D81 /* DontWasteIt */ = {
 			isa = PBXGroup;
 			children = (
+				C6173FD31C9562550057AF46 /* RegisterTransitionManager.swift */,
 				C6BD4F021C954BF500CC4D81 /* AppDelegate.swift */,
-				C6BD4F041C954BF500CC4D81 /* ViewController.swift */,
+				C6BD4F041C954BF500CC4D81 /* LoginViewController.swift */,
+				C664949B1C9551F40045B0A5 /* RegisteredViewController.swift */,
 				C6BD4F061C954BF500CC4D81 /* Main.storyboard */,
+				C6173FD51C9565480057AF46 /* TableViewController.swift */,
 				C6BD4F091C954BF500CC4D81 /* Assets.xcassets */,
 				C6BD4F0B1C954BF500CC4D81 /* LaunchScreen.storyboard */,
 				C6BD4F0E1C954BF500CC4D81 /* Info.plist */,
@@ -103,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6BD4F1C1C954BF500CC4D81 /* Build configuration list for PBXNativeTarget "DontWasteIt" */;
 			buildPhases = (
+				EBB628D824E625F0D1E5078D /* Check Pods Manifest.lock */,
 				C6BD4EFB1C954BF400CC4D81 /* Sources */,
 				C6BD4EFC1C954BF400CC4D81 /* Frameworks */,
 				C6BD4EFD1C954BF400CC4D81 /* Resources */,
+				933786BDDD5C7D9125C31AE6 /* Embed Pods Frameworks */,
+				360EA36A5B365DF795C8B294 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,12 +230,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		360EA36A5B365DF795C8B294 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DontWasteIt/Pods-DontWasteIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		933786BDDD5C7D9125C31AE6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DontWasteIt/Pods-DontWasteIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB628D824E625F0D1E5078D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6BD4EFB1C954BF400CC4D81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6BD4F051C954BF500CC4D81 /* ViewController.swift in Sources */,
+				C6BD4F051C954BF500CC4D81 /* LoginViewController.swift in Sources */,
+				C6173FD61C9565480057AF46 /* TableViewController.swift in Sources */,
+				C6173FD41C9562550057AF46 /* RegisterTransitionManager.swift in Sources */,
+				C664949C1C9551F40045B0A5 /* RegisteredViewController.swift in Sources */,
 				C6BD4F031C954BF500CC4D81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,9 +412,11 @@
 		};
 		C6BD4F1D1C954BF500CC4D81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994E7D8CB0C8BB22A47B0DFE /* Pods-DontWasteIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DontWasteIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dionamini.DontWasteIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,9 +425,11 @@
 		};
 		C6BD4F1E1C954BF500CC4D81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87470EFB13BA9F70AFDDDBAD /* Pods-DontWasteIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DontWasteIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dionamini.DontWasteIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +479,7 @@
 				C6BD4F1E1C954BF500CC4D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6BD4F1F1C954BF500CC4D81 /* Build configuration list for PBXNativeTarget "DontWasteItTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +488,7 @@
 				C6BD4F211C954BF500CC4D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
