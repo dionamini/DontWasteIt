@@ -11,14 +11,17 @@ import Firebase
 
 
 class LoginViewController: UIViewController {
-    var rootRef = Firebase(url: "https://luminous-inferno-5384.firebaseio.com")
+    let rootRef = Firebase(url: "https://luminous-inferno-5384.firebaseio.com")
     
     @IBOutlet weak var registered_user: UIButton!
     @IBOutlet weak var new_user: UIButton!
+//    var user: User?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
         
     }
     @IBAction func unwindToMainViewController (sender: UIStoryboardSegue){

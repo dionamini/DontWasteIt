@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class RegisterTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate  {
+class RegisteredTransitionManager: NSObject, UIViewControllerAnimatedTransitioning, UIViewControllerTransitioningDelegate  {
     
     private var presenting = false
     
@@ -75,14 +75,14 @@ class RegisterTransitionManager: NSObject, UIViewControllerAnimatedTransitioning
         
         // setup paramaters for 2D transitions for animations
         let topRowOffset  :CGFloat = 300
-        let middleRowOffset :CGFloat = 150
-        let bottomRowOffset  :CGFloat = 50
+        let middleRowOffset :CGFloat = 250
+//        let bottomRowOffset  :CGFloat = 50
         
 //        registerViewController.textPostIcon.transform = self.offStage(-topRowOffset)
         registerViewController.textEmail.transform = self.offStage(-topRowOffset)
         
 //        registerViewController.quotePostIcon.transform = self.offStage(-middleRowOffset)
-        registerViewController.textPass.transform = self.offStage(-middleRowOffset)
+        registerViewController.textPass.transform = self.offStage(middleRowOffset)
         
 //        registerViewController.chatPostIcon.transform = self.offStage(-bottomRowOffset)
 //        registerViewController.chatPostLabel.transform = self.offStage(-bottomRowOffset)
@@ -144,6 +144,7 @@ class RegisterTransitionManager: NSObject, UIViewControllerAnimatedTransitioning
         self.presenting = false
         return self
     }
+    
     
 }
 
